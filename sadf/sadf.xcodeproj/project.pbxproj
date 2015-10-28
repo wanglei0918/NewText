@@ -15,6 +15,10 @@
 		0247662C1BDE1F14007E5A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0247662A1BDE1F14007E5A89 /* LaunchScreen.storyboard */; };
 		024766371BDE1F14007E5A89 /* sadfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 024766361BDE1F14007E5A89 /* sadfTests.m */; };
 		024766421BDE1F14007E5A89 /* sadfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 024766411BDE1F14007E5A89 /* sadfUITests.m */; };
+		024766511BDE2C1D007E5A89 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 024766501BDE2C1D007E5A89 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		024766541BDE309F007E5A89 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 024766531BDE309F007E5A89 /* FirstView.m */; settings = {ASSET_TAGS = (); }; };
+		024766571BDE30B3007E5A89 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 024766561BDE30B3007E5A89 /* Model.m */; settings = {ASSET_TAGS = (); }; };
+		0247665A1BDE3123007E5A89 /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 024766591BDE3123007E5A89 /* FirstTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		0247663D1BDE1F14007E5A89 /* sadfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sadfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		024766411BDE1F14007E5A89 /* sadfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sadfUITests.m; sourceTree = "<group>"; };
 		024766431BDE1F14007E5A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0247664F1BDE2C1D007E5A89 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		024766501BDE2C1D007E5A89 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		024766521BDE309F007E5A89 /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		024766531BDE309F007E5A89 /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		024766551BDE30B3007E5A89 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		024766561BDE30B3007E5A89 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		024766581BDE3123007E5A89 /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		024766591BDE3123007E5A89 /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				024766201BDE1F14007E5A89 /* AppDelegate.m */,
 				024766221BDE1F14007E5A89 /* ViewController.h */,
 				024766231BDE1F14007E5A89 /* ViewController.m */,
+				0247664F1BDE2C1D007E5A89 /* FirstViewController.h */,
+				024766501BDE2C1D007E5A89 /* FirstViewController.m */,
+				024766521BDE309F007E5A89 /* FirstView.h */,
+				024766531BDE309F007E5A89 /* FirstView.m */,
+				024766581BDE3123007E5A89 /* FirstTableViewCell.h */,
+				024766591BDE3123007E5A89 /* FirstTableViewCell.m */,
+				024766551BDE30B3007E5A89 /* Model.h */,
+				024766561BDE30B3007E5A89 /* Model.m */,
 				024766251BDE1F14007E5A89 /* Main.storyboard */,
 				024766281BDE1F14007E5A89 /* Assets.xcassets */,
 				0247662A1BDE1F14007E5A89 /* LaunchScreen.storyboard */,
@@ -272,7 +292,11 @@
 			files = (
 				024766241BDE1F14007E5A89 /* ViewController.m in Sources */,
 				024766211BDE1F14007E5A89 /* AppDelegate.m in Sources */,
+				024766541BDE309F007E5A89 /* FirstView.m in Sources */,
+				024766571BDE30B3007E5A89 /* Model.m in Sources */,
 				0247661E1BDE1F14007E5A89 /* main.m in Sources */,
+				0247665A1BDE3123007E5A89 /* FirstTableViewCell.m in Sources */,
+				024766511BDE2C1D007E5A89 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +522,7 @@
 				024766481BDE1F14007E5A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		024766491BDE1F14007E5A89 /* Build configuration list for PBXNativeTarget "sadfTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				0247664B1BDE1F14007E5A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0247664C1BDE1F14007E5A89 /* Build configuration list for PBXNativeTarget "sadfUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				0247664E1BDE1F14007E5A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

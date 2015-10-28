@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstView.h
 //  sadf
 //
 //  Created by fdkj0001 on 15/10/26.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FirstViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface FirstView : UIView
 
 @end
-

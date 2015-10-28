@@ -16,10 +16,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = [UIColor orangeColor];
+    
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:nil style:UIBarButtonItemStyleDone target:self action:@selector(RightAction)];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"下一页" style:UIBarButtonItemStyleDone target:self action:@selector(RightAction)];
+   
+    
+
+    NSLog(@"1");
+    NSLog(@"2");
     NSLog(@"1");
     NSLog(@"2");
 }
+
+-(void)RightAction
+{
+    FirstViewController *FirstV= [[FirstViewController alloc] init];
+    
+    [self.navigationController pushViewController:FirstV animated:YES];
+
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
